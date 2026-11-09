@@ -5,8 +5,6 @@
 
 Starts a FreeRTOS task to print "Hello World".
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
-
 ## How to use example
 
 Follow detailed instructions provided specifically for this example.
@@ -27,11 +25,11 @@ Below is short explanation of remaining files in the project folder.
 
 ```
 ├── CMakeLists.txt
-├── pytest_hello_world.py      Python script used for automated testing
 ├── main
 │   ├── CMakeLists.txt
 │   └── hello_world_main.c
-└── README.md                  This is the file you are currently reading
+├── README.md
+└── sdkconfig.defaults
 ```
 
 For more information on structure and contents of ESP-IDF projects, please refer to Section [Build System](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/build-system.html) of the ESP-IDF Programming Guide.
