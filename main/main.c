@@ -1,6 +1,6 @@
-#include "nonblocking_blink.h"
+#include "debounce/debounce.h"
 
 void app_main(void)
 {
-    nonblocking_blink_start();
+    debounce_start();
 }
