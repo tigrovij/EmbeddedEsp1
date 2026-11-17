@@ -1,6 +1,6 @@
-#include "nonblocking_blink.h"
+#include "button_demo.h"
 
 void app_main(void)
 {
-    nonblocking_blink_start();
+    button_demo_start();
 }
